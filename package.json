@@ -1,0 +1,46 @@
+{
+  "name": "hb",
+  "version": "0.0.0",
+  "description": "Stupidly simple social media streaming.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chapmanu/hb.git"
+  },
+  "keywords": [
+    "social",
+    "media",
+    "facebook",
+    "twitter",
+    "instagram",
+    "wordpress",
+    "streaming",
+    "stream"
+  ],
+  "author": "Miles Zimmerman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chapmanu/hb/issues"
+  },
+  "homepage": "https://github.com/chapmanu/hb",
+  "dependencies": {
+    "waterline": "^0.10.9",
+    "sails-disk": "^0.10.3",
+    "sails-memory": "^0.10.2",
+    "sails-redis": "^0.10.2",
+    "redis": "^0.12.1",
+    "winston": "^0.7.3",
+    "sugar": "^1.4.1",
+    "moment": "^2.8.2",
+    "instagram-node-lib": "^0.1.1",
+    "twit": "^1.1.18",
+    "fbgraph": "^0.2.11",
+    "request": "^2.40.0",
+    "express": "^4.8.6",
+    "body-parser": "^1.6.6",
+    "async": "^0.9.0"
+  }
+}
